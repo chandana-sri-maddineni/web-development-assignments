@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f7fb;
+    color: #333;
+}
+
+header {
+    background-color: #173b57;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+header h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 20px;
+}
+
+nav {
+    background-color: #0f2738;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #61dafb;
+}
+
+section {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+}
+
+section h2 {
+    color: #173b57;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.card {
+    background-color: white;
+    padding: 25px;
+    margin: 15px 0;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+    color: #2574a9;
+    margin-bottom: 10px;
+}
+
+.projects-container {
+    display: flex;
+    gap: 20px;
+}
+
+.projects-container .card {
+    flex: 1;
+}
+
+#contact {
+    text-align: center;
+}
+
+footer {
+    background-color: #173b57;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+@media (max-width: 600px) {
+
+    header h1 {
+        font-size: 30px;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px;
+    }
+
+    section {
+        margin: 20px auto;
+        padding: 20px;
+    }
+
+    .projects-container {
+        flex-direction: column;
+    }
+}
